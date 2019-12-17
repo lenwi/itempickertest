@@ -28,7 +28,7 @@ public class PickItem {
         System.out.println("num items:"+items.size());
         if (!items.isEmpty()) {
             System.out.println("here is a random item:");
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 100; i++) {
                 System.out.println(items.get(rand.nextInt(items.size())));
             }
         }
